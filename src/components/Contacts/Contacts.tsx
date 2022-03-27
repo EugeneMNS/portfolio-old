@@ -6,11 +6,11 @@ export const Contacts = () => {
         <div className={s.contactsBlock}>
             <div className={s.contactsContainer}>
                 <h2>Contacts</h2>
-                <div className={s.contactsForm}>
+                <form className={s.contactsForm}>
                     <input className={s.input}/>
                     <input className={s.input}/>
                     <textarea className={s.textarea}/>
-                </div>
+                </form>
                 <button className={s.contactsButton}> SEND</button>
             </div>
         </div>

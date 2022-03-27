@@ -1,5 +1,7 @@
 .mainBlock{
-    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
     background-color: seashell;
 }
 
@@ -7,6 +9,7 @@
     height: 100%;
     width: 80%;
     margin: 0 auto;
+    padding-bottom: 5vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -16,6 +19,7 @@
 }
 
 .info {
+    margin-top: 5vh;
     border-radius: 3px;
     background-color: ghostwhite;
 }
@@ -23,6 +27,7 @@
 .photo {
     width: 200px;
     height: 250px;
+    margin-top: 5vh;
     border: 1px solid;
     border-radius: 3px;
     background-color: ghostwhite;
